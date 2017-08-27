@@ -1,2 +1,2 @@
 # WebDevBootCamp
-# This is to test how to push using Atom.
+# Files created going through webDeb bootcamp in udemy.
