@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="tictactoe.css">
+  </head>
+  <body>
+<h1>Tic Tac Toe</h1>
+<table>
+  <tbody>
+  <tr>
+    <td></td>
+    <td class="centerColumn"></td>
+    <td></td>
+  </tr>
+  <!-- Solution 1
+  <tr class="centerRow">
+    <td></td>
+    <td class="centerColumn"></td>
+    <td></td>
+  </tr> -->
+
+<!-- Solution 2 below -->
+  <tr>
+    <td class="centerRow"></td>
+    <td class="centerColumn centerRow"></td>
+    <td class="centerRow"></td>
+  </tr>
+<!--  The space in the actually makes the center square
+  both a member of the centerColumn and centerRow classes
+-->
+  <tr>
+    <td></td>
+    <td class="centerColumn"></td>
+    <td></td>
+  </tr>
+  <!-- <tr class="lowborder">
+    <td class="rightborder"></td>
+    <td class="rightborder"></td>
+    <td class="rightborder"></td>
+  </tr>
+  <tr>
+    <td class="rightborder"></td>
+    <td class="rightborder"></td>
+    <td></td>
+  </tr> -->
+  </tbody>
+</table>
+  </body>
+</html>
