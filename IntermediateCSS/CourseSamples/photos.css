@@ -1,3 +1,6 @@
+/*Note that img tags put together by default have a small white margin
+between them unless you use something like float to take them out
+of the normal flow.*/
 img{
   width: 30%;
   float: left;
