@@ -1,26 +1,43 @@
+
 #root{
   border: solid #bdc3c7;
   width: 70%;
-  margin-left: 15%;
   border-width: 1em;
+  margin: 0 auto;
 }
 
 h3{
   color: #3498db;
+  font-family: Source Sans Pro;
+  letter-spacing: .1rem;
 }
 
 h2{
   color: #2c3e50
+  font-family: Source Sans Pro;
+  font-size: 2.0rem;
 }
 
 .article{
   margin-left: 1em;
   margin-right: 1em;
-  border-bottom: solid #F1F0F2; 
+}
+
+hr{
+  margin-left: 1em;
+  margin-right: 1em;
+  border: 0;
+  height: 1px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .firstP{
   border-left: solid #bdc3c7;
   padding-left: .5em;
   border-width: .25em;
+}
+
+p{
+  font-family: Source Sans Pro;
 }
