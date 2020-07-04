@@ -1,0 +1,26 @@
+#root{
+  border: solid #bdc3c7;
+  width: 70%;
+  margin-left: 15%;
+  border-width: 1em;
+}
+
+h3{
+  color: #3498db;
+}
+
+h2{
+  color: #2c3e50
+}
+
+.article{
+  margin-left: 1em;
+  margin-right: 1em;
+  border-bottom: solid #F1F0F2; 
+}
+
+.firstP{
+  border-left: solid #bdc3c7;
+  padding-left: .5em;
+  border-width: .25em;
+}
